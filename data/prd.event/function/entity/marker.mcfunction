@@ -2,7 +2,8 @@
 function prd.event:entity/init
 #관리자 모드
 execute if score #prd.event.op prd.bool matches 1 run function prd.event:entity/showtext with storage prd:this marker
-
+#스케줄 초기화 및 정리
+data remove storage prd:this schedule
 data modify storage prd:this schedule set from entity @s data.schedule
 data modify storage prd:this goto set from entity @s data.goto
 tag @s add prd.this
