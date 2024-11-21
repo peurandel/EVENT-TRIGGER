@@ -38,7 +38,7 @@ append.
 백색대화의 컨셉인 evoke소리를 접고 트리거 발동시 사용자가 원하는 소리를 설정할 수 있습니다.
 단, 소리의 볼륨과 피치, 소리가 나는 위치 등은 조절할 수 없으며, 오로지 소리 종류만을 바꿀 수 있습니다.
 만지지 않아도 무방합니다. evoke 소리가 기본으로 출력됩니다.
-/data modify entity @e[tag=prd.entity.event,limit=1,sort=nearest] data.particle set value "파티클 이름"
+/data modify entity @e[tag=prd.entity.event,limit=1,sort=nearest] data.sound set value "사운드 이름"
 
 # 노드 오픈
 특정 노드가 발동될때 다른 노드를 열고 싶으신가요?
