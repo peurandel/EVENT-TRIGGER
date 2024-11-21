@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{prd.event.editor:1}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "prd.event:player/editor/right_click"
+  }
+}

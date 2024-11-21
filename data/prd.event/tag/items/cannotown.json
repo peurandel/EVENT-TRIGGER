@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:light_blue_stained_glass_pane",
+        "crafting_table",
+        "beacon",
+        "barrier",
+        "lime_wool",
+        "red_wool",
+        "gold_ingot",
+        "iron_chestplate",
+        "paper",
+        "tripwire_hook",
+        "player_head",
+        "tnt"
+    ]
+}

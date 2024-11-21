@@ -1,0 +1,1 @@
+$data modify storage prd:db player.'$(id)' set value {}

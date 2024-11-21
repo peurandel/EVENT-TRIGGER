@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:item",
+        "minecraft:item_frame",
+        "minecraft:armor_stand",
+        "minecraft:experience_bottle",
+        "minecraft:painting",
+        "minecraft:snowball",
+        "minecraft:egg",
+        "minecraft:ender_pearl",
+        "minecraft:fireball",
+        "minecraft:area_effect_cloud",
+        "minecraft:marker"
+    ]
+}

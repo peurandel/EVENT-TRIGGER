@@ -1,0 +1,26 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:air",
+        "minecraft:snow",
+        "minecraft:water",
+        "minecraft:short_grass",
+        "minecraft:tall_grass",
+        "minecraft:cave_air",
+        "minecraft:void_air",
+        "minecraft:repeater", 
+        "minecraft:tripwire",
+        "minecraft:comparator",
+        "minecraft:sugar_cane",
+        "minecraft:redstone_wire",
+        "#minecraft:fire", 
+        "#minecraft:signs", 
+        "#minecraft:rails",
+        "#minecraft:buttons",
+        "#minecraft:flowers",
+        "#minecraft:wool_carpets",
+        "#minecraft:saplings",
+        "#minecraft:flower_pots",
+        "#minecraft:pressure_plates"
+    ]
+}
