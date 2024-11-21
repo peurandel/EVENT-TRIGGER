@@ -9,3 +9,4 @@ scoreboard players set @s[scores={prd.mode=5..}] prd.mode 0
 execute as @s[scores={prd.mode=0}] unless predicate prd.event:sneak run function prd.event:player/editor/nodeselect/main
 execute as @s[scores={prd.mode=1}] unless predicate prd.event:sneak run function prd.event:player/editor/goto/main
 execute as @s[scores={prd.mode=2}] unless predicate prd.event:sneak run function prd.event:player/editor/gotocut/main
+execute as @s[scores={prd.mode=3}] unless predicate prd.event:sneak run function prd.event:player/editor/remove/main
