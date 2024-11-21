@@ -7,3 +7,5 @@ execute as @e[tag=prd.entity.event,type=marker] if score @s prd.id = .global prd
 
 #Show it
 execute as @s[scores={prd.mode=0}] run function prd.event:player/editor/nodeselect/select
+execute as @s[scores={prd.mode=1}] run function prd.event:player/editor/goto/select
+execute as @s[scores={prd.mode=2}] run function prd.event:player/editor/gotocut/select

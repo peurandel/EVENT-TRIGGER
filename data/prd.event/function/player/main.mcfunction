@@ -7,4 +7,4 @@ execute store result storage prd:this id int 1 run scoreboard players get @s prd
 function prd.event:schedule/tick with storage prd:this
 
 execute if items entity @s weapon.mainhand *[custom_data~{prd.event.editor:1}] run function prd.event:player/editor/main
-tag @s remove prd.player.thisgit remote add origin https://github.com/peurandel/EVENT-TRIGGER
+tag @s remove prd.player.this

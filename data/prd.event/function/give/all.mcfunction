@@ -1,2 +1,2 @@
-give @s string[custom_data={prd.event.editor:1},custom_name='{"text":"[PRD] EVENT EDITOR"}',food={nutrition:0,can_always_eat:true,eat_seconds:2147483647,saturation:0}]
+give @s string[custom_data={prd.event.editor:1},custom_name='{"text":"[PRD] EVENT EDITOR"}',minecraft:consumable={consume_seconds:0,animation:none}]
 give @s zombie_spawn_egg[custom_name='{"text":"[PRD] SPAWN EVENT NODE"}',entity_data={id:"minecraft:marker",Tags:[prd.entity.event]}]
