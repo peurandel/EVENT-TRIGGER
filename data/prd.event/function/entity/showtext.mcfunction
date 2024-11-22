@@ -1,4 +1,4 @@
-$summon text_display ~ ~2 ~ {Tags:[prd.entity.text],text:'{"text":"$(id)"}'}
+$summon text_display ~ ~2 ~ {Tags:[prd.entity.text],text:'{"text":"$(id)"}',alignment:"left"}
 
 execute unless data entity @s data.goto run return 0
     function prd.event:entity/setgoto with storage prd:this
