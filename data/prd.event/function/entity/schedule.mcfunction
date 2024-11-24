@@ -1,5 +1,6 @@
 #소리 출력
-function prd.event:entity/sound
+execute unless data entity @e[tag=prd.this,limit=1,type=marker] data.sound run playsound minecraft:entity.evoker.prepare_summon ambient @s ~ ~ ~ 1 2
+function prd.event:entity/sound with entity @e[tag=prd.this,limit=1,type=marker] data
 #텍스트 출력
 
 $data modify storage prd:db player.$(id).schedule set from storage prd:this schedule
