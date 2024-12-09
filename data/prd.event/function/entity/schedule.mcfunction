@@ -12,6 +12,6 @@ function prd.event:cmd with entity @s data
 
 function prd.event:entity/setgoto with storage prd:this
 
-execute as @e[tag=prd.entity.marker.goto.this] run say it's goto marker
+#execute as @e[tag=prd.entity.marker.goto.this] run say it's goto marker
 $execute as @e[tag=prd.entity.marker.goto.this] run data modify entity @s data.allowed append value $(id)
 tag @e[tag=prd.entity.marker.goto.this,type=marker] remove prd.entity.marker.goto.this
